@@ -1,0 +1,2 @@
+
+past|past|list|past|exit|past|list|create test3.txt|list|past|exit|
