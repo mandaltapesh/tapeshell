@@ -37,12 +37,10 @@ class History(object):
 		pass
 	def update(self, cmd):
 		with open("db.txt", 'a') as f:
-			f.write(cmd+"|")
+			f.write(cmd+"\n")
 	def retrieve(self):
 		with open("db.txt", 'r') as f:
-			p = f.read()
-			p = p.split("|")
-			for i in p:
+			for i in f:
 				print i
 
 def main():
