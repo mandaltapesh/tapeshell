@@ -1,2 +1,16 @@
 
-past|past|list|past|exit|past|list|create test3.txt|list|past|exit|
+create file1.txt
+create file2.txt
+create file3.txt
+list
+delete file3.txt
+list
+history
+past
+exit
+past
+exit
+past
+exit
+past
+exit
